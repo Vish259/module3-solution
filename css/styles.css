@@ -1,0 +1,77 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: white;
+  font-family: 'Abel', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: blue;
+  border-radius: 0;
+  border: 0;
+}
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Abel', serif;
+  color: white;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+li {
+  font-size: 1.3em;
+}
+
+.Gold {
+  text-align: center;
+  color: black;
+  font-style: bold; 
+  background-color: gold;
+}
+
+.Silver {
+  text-align: center;
+  color: black;
+  font-style: bold; 
+  background-color: silver;
+}
+
+.Bronze {
+  text-align: center;
+  color: black;
+  font-style: bold; 
+  background-color: brown;
+}
+
+h2 {
+  color: black;
+  font-size: 1.5em
+
+}
+
+p {
+  color: black;
+  background-color: gray;
+  height: 1000px
+}
+
+h3 {
+  color: black;
+  
+}
+
+

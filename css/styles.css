@@ -1,77 +1,99 @@
+/* Base Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: Brushstroke, fantasy;
+  color: blue;
+}
+
 body {
-  font-size: 16px;
-  color: #fff;
   background-color: white;
-  font-family: 'Abel', sans-serif;
-}
-
-/** HEADER **/
-#header-nav {
-  background-color: blue;
-  border-radius: 0;
-  border: 0;
-}
-
-
-.navbar-brand {
-  padding-top: 25px;
-}
-
-.navbar-brand h1 { /* Restaurant name */
-  font-family: 'Abel', serif;
-  color: white;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: .75;
-}
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
-}
-
-li {
-  font-size: 1.3em;
-}
-
-.Gold {
-  text-align: center;
-  color: black;
-  font-style: bold; 
-  background-color: gold;
-}
-
-.Silver {
-  text-align: center;
-  color: black;
-  font-style: bold; 
-  background-color: silver;
-}
-
-.Bronze {
-  text-align: center;
-  color: black;
-  font-style: bold; 
-  background-color: brown;
-}
-
-h2 {
-  color: black;
-  font-size: 1.5em
 
 }
 
 p {
-  color: black;
-  background-color: gray;
-  height: 1000px
-}
-
-h3 {
-  color: black;
-  
+  padding: 10px;
+  margin: 0;
+  color: white;
 }
 
 
+.container {
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+section {
+  border: 1px solid black;
+  background-color: blue;
+  width: 100%;
+  height: auto;
+  font-family: Helvetica;
+  color: black;
+  position: relative;
+  overflow: auto;
+}
+
+#gold {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: gold;
+}
+
+#gold-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  border: 0 0 10px 10px;
+  color: blue;
+}
+
+#header-nav {
+  border: 0;
+  background-color: Blue;
+  color: blue;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+.nav-brand {
+  font-size: 1.5em;
+}
+
+#nav-list {
+  color: white;
+}
+
+hr {
+  border-color: white;
+}
+
+.item {
+  color: white;
+  font-size: 1.2em;
+}
